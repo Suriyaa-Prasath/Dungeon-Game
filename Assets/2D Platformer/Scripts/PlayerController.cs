@@ -97,6 +97,7 @@ namespace Platformer
             Vector3 scaler = transform.localScale;
             scaler.x *= -1;
             transform.localScale = scaler;
+            Debug.Log("Flipped");
         }
 
         private void CheckGround()
